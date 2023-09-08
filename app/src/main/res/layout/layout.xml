@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice Rolling"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/diceImageView"
+        android:layout_width="253dp"
+        android:layout_height="338dp"
+        android:contentDescription="Dice Image"
+        android:src="@drawable/dice1" />
+
+    <TextView
+        android:id="@+id/rollResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp" /> <!-- Add margin top here -->
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:text="Roll the Dice"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
